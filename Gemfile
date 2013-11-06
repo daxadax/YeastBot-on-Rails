@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+# Added Gems
+
+gem "google_drive", "~> 0.3.6"
+
 # Use mysql as the database for Active Record
 gem 'mysql2'
 
@@ -30,6 +34,14 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+end
+
+group :development, :test do
+  gem 'rspec-rails',      ">= 2.0.0.beta"
+  gem 'ZenTest'
+  gem 'autotest'
+  gem "autotest-growl", "~> 0.2.16"
+  gem 'factory_girl_rails'
 end
 
 # Use ActiveModel has_secure_password
