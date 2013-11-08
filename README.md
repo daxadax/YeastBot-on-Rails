@@ -9,3 +9,4 @@ to make it more pretty/functional.
  * Remove search term from 'other popular styles'
  * Improve search function - possibly implement jQuery combobox?  
  * Test more than successful GET
+ * Download YEASTBOT DB daily/weekly to use locally so queries are minimized
