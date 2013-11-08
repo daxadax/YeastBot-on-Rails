@@ -15,7 +15,7 @@ describe PagesController do
   describe "search" do
     
     it "has a search page" do
-      get "search"
+      get "search", beer_search: "TEST BEER"
       response.should be_successful
     end
       

@@ -6,6 +6,14 @@ body {
 	padding: 2em;
 }
 
+footer {
+	text-align: center;
+	position: absolute;
+	bottom: 23px;
+	right: 30%;
+	left: 30%;
+}
+
 .holder {
     margin-bottom: -2em;
 }
@@ -22,6 +30,7 @@ body {
 a {
 	color: blue;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .yeast-info {
@@ -34,26 +43,6 @@ a {
 
 .center {
 	text-align: center;
-}
-
-.left {
-	text-align: left;
-}
-
-.right {
-	text-align: right;
-}
-
-.float-left {
-	float: left;
-}
-
-.float-right {
-	float: right;
-}
-
-.clear {
-	clear: both;
 }
 
 .small-top-margin {
