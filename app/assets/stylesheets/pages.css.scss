@@ -2,16 +2,39 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
 	padding: 2em;
 }
 
 footer {
+}
+
+#footer-bar {
+	position: fixed;
+	opacity: .3;
+	height: 65px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+#footer-bar:hover {
+	background: #666;
+	opacity: 1;
+}
+
+#footer-text {
 	text-align: center;
-	position: absolute;
-	bottom: 23px;
-	right: 30%;
+	position: fixed;
+	bottom: 0px;
+ 	right: 30%;
 	left: 30%;
+	padding: 1em;
 }
 
 .holder {
