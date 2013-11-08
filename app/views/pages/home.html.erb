@@ -1,0 +1,13 @@
+<h1 class="center">
+	What kind of beer do you want to make?
+</h1>
+
+<div id="home-search" class="center small-top-margin">
+	<%= form_tag('/search', method: :get) do -%>
+	  <%= text_field_tag :beer_search, nil, class: "center" %>
+	<% end %>
+</div>
+<br />
+
+
+

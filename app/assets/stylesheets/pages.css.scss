@@ -1,0 +1,69 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	padding: 2em;
+}
+
+.holder {
+    margin-bottom: -2em;
+}
+
+.holder2 {
+	margin-left: 1em;
+}
+
+#home-search input {
+	width: 400px;
+	height: 40px;
+}
+
+a {
+	color: blue;
+	cursor: pointer;
+}
+
+.yeast-info {
+	margin-right: 3em;
+}
+
+
+
+/*add as partial*/
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.small-top-margin {
+	margin-top: 2em;
+}
+
+.hide {
+	display: none;
+}
+
+.highlight {
+	font-size: 120%;
+}

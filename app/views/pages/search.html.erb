@@ -1,0 +1,35 @@
+<h1>
+	Ahhh, you're brewing a <%= @search.downcase %>?  Try one of these yeasts:
+</h1>
+<br />
+
+<% @matches.each do |match| %>
+  <div class="holder">
+  	<div class="yeast-name">
+	  	<h3>
+	      <%= content_tag("a", match[2]) %> (<%= match[0] %>)
+	    </h3>
+	  </div>
+	  <div class="holder2 toggle-element hide">
+      <h3>General Notes</h3>
+   		<%= match[10].blank? ? "Sorry, no general notes for this yeast!" : match[10] %> <br />
+      <h3>Pitching/Fermentation Notes</h3>
+      <%= match[9].blank? ? "Sorry, no pitching/fermentation notes for this yeast!" : match[9] %> <br />
+      <h3>Other Popular Styles</h3>
+      <%= match[11].gsub(/@search/, '')  %>
+
+      <h3>Yeast Specs</h3>
+      <ul class="yeast-info">
+	      <li>Type: <%= match[3] %></li>
+      	<li>Fermentation Temperature Range: <%= match[5] %>ºF</li>
+        <li>Apparent Attenuation Range: <%= match[6] %>%</li>
+        <li>Flocculation: <%= match[7] %></li>
+        <li>Alcohol Tolerance: <%= match[8] %></li>
+        <li>Same or similar to: <%= match[12] %></li>
+        <li>Availability: <%= match[13] %></li>
+        <li>Source: <%= match[14] %></li>
+      </ul>
+    </div>
+	  <br />
+  </div>
+<% end %>												
