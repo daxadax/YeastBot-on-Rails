@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 # Added Gems
 
 gem "google_drive", "~> 0.3.6"
+gem 'newrelic_rpm'
 
 # Use mysql as the database for Active Record
 gem 'mysql2'
