@@ -1,0 +1,61 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+body {
+  padding: 2em; }
+
+.holder {
+  margin-bottom: -2em; }
+
+.holder2 {
+  margin-left: 1em; }
+
+#home-search input {
+  width: 400px;
+  height: 40px; }
+
+a {
+  color: blue;
+  cursor: pointer; }
+
+.yeast-info {
+  margin-right: 3em; }
+
+/*add as partial*/
+.center {
+  text-align: center; }
+
+.left {
+  text-align: left; }
+
+.right {
+  text-align: right; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.small-top-margin {
+  margin-top: 2em; }
+
+.hide {
+  display: none; }
+
+.highlight {
+  font-size: 120%; }
