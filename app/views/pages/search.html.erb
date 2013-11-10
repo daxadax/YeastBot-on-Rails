@@ -1,5 +1,5 @@
 <h1>
-	Ahhh, you're brewing <%= @search.downcase %>?  Try one of these yeasts:
+	Your search for "<%= @search %>" found the following yeasts:
 </h1>
 <br />
 
@@ -32,4 +32,9 @@
     </div>
 	  <br />
   </div>
-<% end %>												
+<% end %>				
+
+<br />
+<h2>
+	<%= link_to "Search again", root_path %>
+</h2>								
